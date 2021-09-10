@@ -1,0 +1,18 @@
+package io.javabrains;
+
+public class TypeInferenceExample {
+
+	public static void main(String[] args) {
+		printLambda(s -> s.length());
+	}
+	
+	public static void printLambda(TypeInferenceLambda l) {
+//		l.getLength("Hello Lambda");
+		System.out.println()
+	}
+	
+	interface TypeInferenceLambda {
+		int getLength(String s);
+	}
+
+}

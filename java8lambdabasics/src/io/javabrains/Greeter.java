@@ -8,6 +8,7 @@ public class Greeter {
 
 	public static void main(String[] args) {
 		// Implementation of interface
+		//Implementation on New Interface
 		Greeter greeter = new Greeter();
 		Greeting helloWorldGreeting = new HelloWorldGreeting();
 		greeter.greet(helloWorldGreeting);
